@@ -34,7 +34,7 @@ If on one day 4.1 is released befor i update this script, you can change the ver
 5.  A)type: sudo ./LM_CQRlog_Installer.sh
 
     B)type: sudo ./LM_CQRlog_Installer_incl_HAMlib.sh
-    
+
 6.  After the script is finished IT WILL REBOOT YOUR COMPUTER!!! 
     if this is not done, this wil not work. 
     DO not try to cancel this and start CQRlog, this will mess stuff up!!
@@ -47,8 +47,8 @@ If on one day 4.1 is released befor i update this script, you can change the ver
 - Install CQRlog (Including mariadb!)
 - Install X-Planet and X-Planet-images
 - Checks if the user is a dialout member, if not he will be.
-- Download HAMlib 3.3 (you can configure the version in the script if a newer version has been released)
-- Install HAMlib 3.3
+- If you run the "incl_HAMlib" version: Download HAMlib 4.0 (you can configure the version in the script if a newer version has been released)
+- If you run the "incl_HAMlib" version: Install HAMlib 4.0
 - Cleaning up some temp stuff
 - Forcing a reboot in 30 seconds after it finishes
 
