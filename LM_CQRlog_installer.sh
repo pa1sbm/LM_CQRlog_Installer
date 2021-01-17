@@ -65,12 +65,14 @@ else
 fi
 
 #Done installing.
-sleep 5
 clear
-echo "***********************************"
-echo "*     Installation is finished    *"
-echo "*  PLEASE REBOOT YOUR SYSTEM NOW  *"
-echo "***********************************"
+echo "****************************************************"
+echo "****************************************************"
+echo "**             Installation is finished           **"
+echo "**    FORCE REBOOTING YOUR SYSTEM IN 30 SECONDS ! **"
+echo "****************************************************"
+echo "****************************************************"
 
 
-
+sleep 30
+reboot
