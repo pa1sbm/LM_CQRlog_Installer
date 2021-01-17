@@ -8,16 +8,17 @@ This is due to me testing it on a clean, fresh out of the box system.
 I cannot test if you have other software installed that might interfere with this script.
 
 #### Supported versions...
-As the changes in 
+As the changes in OS and the repositories of bot LM and CQRlog were too much for me to bother to check out backwards compatibility, 
+This is only supported on LM20.1 (and probably upwards)
 
 
 #### The files......
 
-##LM_CQRlog_Installer.sh
-This is the installer script that installs CQRlog and puts the user that installs it in the dialout group.
+#### A) LM_CQRlog_Installer.sh
+This is the installer script that installs CQRlog and puts the user in the dialout group among things.
 
-##LM_CQRlog_Installer_incl_HAMlib.sh
-This is the installer script that installs CQRlog and puts the user in the dialout group
+#### B) LM_CQRlog_Installer_incl_HAMlib.sh
+This is the installer script that installs CQRlog and puts the user in the dialout group among things.
 As a bonus feature it installs HAMlib 4.0, THIS IS ON YOUR OWN RISK!!! as its still beta!
 If on one day 4.1 is released befor i update this script, you can change the version number in the settings part of the script. 
 
@@ -45,5 +46,4 @@ So What does the script do.......
 - Forcing a reboot in 30 seconds after it finishes
 
 The scripts are tested on:
-- LM19.2
-- LM19.3
+- LM20.1
