@@ -54,28 +54,17 @@ echo "Running apt-get update"
 sleep 5
 apt-get update
 
-#Installing MariaDB if we run LM20 or higher 
-##grep -i 'VERSION_ID' /etc/os-release
-
-LMVERSIONTMP="`grep -i 'VERSION_ID' /etc/os-release`"
-echo $LMVERSION
-LMVERSION=$(echo "${LMVERSIONTMP//[A-Z_=]/}" | sed "s/\"//" | sed "s/\"//")
-echo $LMVERSION
-
-apt install mariadb-common mariadb-server mariadb-client
-
 #Installing CQRlog
 clear
 echo "Installing CQRlog"
 sleep 5
 apt-get -y install cqrlog
 
-#Installing CQRlog
+#Installing X-planet
 clear
 echo "Installing X-Planet"
 sleep 5
 apt-get -y install xplanet xplanet-images 
-
 
 #checking if user is a dialout member
 clear
