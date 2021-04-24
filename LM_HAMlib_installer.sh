@@ -67,7 +67,8 @@ cd $FOLDER
 clear
 echo "Configuring installation for HAMlib"
 sleep 5
-./configure --disable-static
+./configure --disable-static --prefix=/usr
+
 
 #running make
 clear
